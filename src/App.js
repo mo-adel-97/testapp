@@ -4,7 +4,7 @@ const App = () => {
   const [users, setUsers] = useState([]);
 
   useEffect(() => {
-    fetch(" https://0dbf-2001-16a2-7603-ab00-644f-a3c2-3263-3448.ngrok-free.app/api/user", {
+    fetch("https://c187-2001-16a2-7603-ab00-644f-a3c2-3263-3448.ngrok-free.app/api/user", {
       headers: {
         "ngrok-skip-browser-warning": "true"
       }
