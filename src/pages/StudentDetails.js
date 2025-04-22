@@ -127,7 +127,7 @@ function StudentDetails() {
           >
             <Grid container spacing={2}>
               <Grid item xs={12} sm={6}><strong>الاسم:</strong> {data.name}</Grid>
-              <Grid item xs={12} sm={6}><strong>الرقم القومي:</strong> {data.nationalId}</Grid>
+              <Grid item xs={12} sm={6}><strong> رقم الهوية:</strong> {data.nationalId}</Grid>
               <Grid item xs={12} sm={6}><strong>المدينة:</strong> {data.city}</Grid>
               <Grid item xs={12} sm={6}><strong>الفرع:</strong> {data.branch}</Grid>
               <Grid item xs={12} sm={6}><strong>البرنامج:</strong> {data.diploma}</Grid>

@@ -121,7 +121,7 @@ function Home() {
 
           <TextField
             fullWidth
-            label="أدخل الرقم القومي"
+            label="أدخل رقم الهوية"
             placeholder="مثال: 30102150123462"
             value={nationalId}
             onChange={(e) => setNationalId(e.target.value)}
